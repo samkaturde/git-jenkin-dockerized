@@ -5,7 +5,7 @@ node {
 
         def customImage = docker.build("docker-hub-image")
 
-        /* Push the container to the custom Registry */
+        /* Push the container to the custom Registry  */
         customImage.push()
     }
 }
